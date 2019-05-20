@@ -1,0 +1,89 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/mainbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+.dayly__form{
+	width: 461px;
+	height: 471px;
+	margin: 61px auto;
+	background-color: #FFF;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+}
+.wrapper{
+	width: 401px;
+	margin: 0 auto;
+}
+.header__heading img{
+	width: 22px;
+	height: 22px;
+	margin-top: 22px;
+	margin-right: 12px;
+}
+.header__heading{
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+}
+.header__text{
+	font-size: 13px;
+	line-height: 1.5;
+	color: #7A7B7F;
+	margin: 20px 0 36px 0;
+}
+a{
+	text-decoration: none;
+	color: #ea355a;
+}
+.user{
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 16px;    
+}
+input{
+	background-color: #f0f0f0;
+	border:none;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	font-size: 14px;
+	color: #7A7B7F;
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+::-webkit-input-placeholder{
+	margin-left: 20px;
+}
+.first__name, .last__name{
+	width: 193px;
+	height: 40px;
+}
+.user__address, .user__password{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 16px;
+}
+.sign__btn{
+	width: 100%;
+	height: 55px;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	background-color: #EA355A;
+	border: none;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+}
+.footer__text{
+	font-size: 13px;
+	line-height: 1.5;
+	color: #7A7B7F;
+	margin-top: 27px;
+	
+}
