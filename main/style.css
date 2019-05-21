@@ -8,16 +8,16 @@ body{
 }
 .dayly__form{
 	width: 461px;
-	height: 471px;
 	margin: 61px auto;
+	padding: 0 31px 20px 31px;
 	background-color: #FFF;
 	-webkit-border-radius: 4px;
 	        border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box; 
 }
-.wrapper{
-	width: 401px;
-	margin: 0 auto;
-}
+
 .header__heading img{
 	width: 22px;
 	height: 22px;
@@ -84,6 +84,6 @@ input{
 	font-size: 13px;
 	line-height: 1.5;
 	color: #7A7B7F;
-	margin-top: 27px;
+	margin: 27px 0 27px 0;
 	
 }
